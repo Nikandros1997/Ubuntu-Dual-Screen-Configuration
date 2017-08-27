@@ -38,6 +38,6 @@ Now, that everything is setup, is time to play with the scaling factor.
 
 `--pos 0x1798` -> This is the position of the internal monitor in the software. Again, this came up from trial and error so feel free to find the sweet spot for your setup.
 
-
+A script for these commands is coming...
 
 
