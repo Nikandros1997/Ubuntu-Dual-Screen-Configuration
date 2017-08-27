@@ -14,4 +14,19 @@ Command 2:
 `xrandr --output eDP-1 --scale 1x1 --pos 0x1798`
 
  # Explantion of my Solution:
+ `--output HDMI-3` -> Select the output you want to configure, in this case external monitor.
+ 
+TIP: If you want to see all the output sources, type `xrandr` and it will output all the available screens.
+
+I selected to configure the external monitor, first, as my external monitor will be above my internal screen in my setup.
+
+`--mode 1920x1080` -> is the resolution of the external monitor.
+
+`--fb 2880x1800`   -> is the resolution of my internal screen.
+
+`--pos 0x0`        -> is the position of the external monitor (just to make it easier I located to 0,0)
+
+Now, that everything is setup, is time to play with the scaling factor.
+
+`--scale 1.5x1.665` -> This value is through a trial and error process, so it might differ for your monitor. Feel free to change it.
  
